@@ -88,7 +88,7 @@ void memoryAllocationsSimple(){
     printFreeList();
 
 
-} /* END: memoryAllocationsSimple() */
+}
 
 
 void memoryAllocationsFull( size_t heapSize, int numChunks ){
@@ -112,7 +112,7 @@ void memoryAllocationsFull( size_t heapSize, int numChunks ){
         printFreeList();
     }
 
-} /* END: memoryAllocationsFull() */
+}
 
 
 void memoryAllocationsRandom( unsigned int seed ){
@@ -158,7 +158,7 @@ void memoryAllocationsRandom( unsigned int seed ){
     printFreeList();
 
 
-} /* END: memoryAllocationsRandom() */
+}
 
 
 int main( int argc, char* argv[] ){
